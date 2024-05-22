@@ -1,0 +1,15 @@
+diff --git a/node_modules/@adaptabletools/adaptable-react-aggrid/package.json b/node_modules/@adaptabletools/adaptable-react-aggrid/package.json
+index 2227f5f..91700b6 100644
+--- a/node_modules/@adaptabletools/adaptable-react-aggrid/package.json
++++ b/node_modules/@adaptabletools/adaptable-react-aggrid/package.json
+@@ -19,5 +19,8 @@
+     "node": ">=6.0.0"
+   },
+   "type": "module",
+-  "module": "src/index.js"
++  "module": "src/index.js",
++  "exports": {
++    ".": "./src/index.js"
++  }
+ }
+\ No newline at end of file

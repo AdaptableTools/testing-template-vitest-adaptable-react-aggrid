@@ -1,0 +1,6 @@
+{
+  "printWidth": 120,
+  "plugins": [],
+  "importOrder": ["^react$", "<THIRD_PARTY_MODULES>", "^[./]"],
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators"]
+}
