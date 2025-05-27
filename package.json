@@ -11,15 +11,10 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@adaptabletools/adaptable-react-aggrid": "18.0.11",
-    "@ag-grid-community/client-side-row-model": "31.3.1",
-    "@ag-grid-community/core": "31.3.1",
-    "@ag-grid-community/react": "31.3.1",
-    "@ag-grid-community/styles": "31.3.1",
-    "@ag-grid-enterprise/menu": "31.3.1",
-    "@ag-grid-enterprise/row-grouping": "31.3.1",
-    "@ag-grid-enterprise/status-bar": "31.3.1",
+    "@adaptabletools/adaptable-react-aggrid": "20.1.5",
     "@finos/fdc3": "^2.0.3",
+    "ag-grid-enterprise": "33.2.4",
+    "ag-grid-react": "33.2.4",
     "cross-env": "^7.0.3",
     "extensionless": "^1.9.7",
     "patch-package": "^8.0.0",
@@ -32,12 +27,12 @@
     "@types/node": "20.12.11",
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.0",
-    "@vitejs/plugin-react": "4.2.1",
-    "jsdom": "^24.0.0",
+    "@vitejs/plugin-react": "4.5.0",
+    "jsdom": "24.0.0",
     "prettier": "3.2.5",
     "typescript": "5.4.5",
-    "vite": "5.2.11",
+    "vite": "6.3.5",
     "vite-plugin-checker": "0.6.4",
-    "vitest": "1.6.0"
+    "vitest": "3.1.4"
   }
 }

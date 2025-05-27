@@ -1,11 +1,19 @@
-import react from "@vitejs/plugin-react";
-import { defineConfig } from "vite";
-import checker from "vite-plugin-checker";
+import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite';
+import checker from 'vite-plugin-checker';
 
 export default () => {
   return defineConfig({
     test: {
-      environment: "jsdom",
+      environment: 'jsdom',
+      server: {
+        deps: {
+          inline: [/@adaptabletools\/adaptable/],
+        },
+      },
+    },
+    json: {
+      stringify: true,
     },
     plugins: [
       checker({
@@ -13,9 +21,8 @@ export default () => {
       }),
       react(),
     ],
-
     build: {
-      outDir: "build",
+      outDir: 'build',
       sourcemap: true,
     },
   });
