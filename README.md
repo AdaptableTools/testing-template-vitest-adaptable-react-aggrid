@@ -2,7 +2,7 @@
 
 This is a very basic example of a setup with [Vite](https://vite.dev/) & [Vitest](https://vitest.dev/). 
 
-> For a proper support template on how to use AdapTable with React, please refer to the [AdapTable React Template](https://github.com/AdaptableTools/support-template-adaptable-react-aggrid).
+> See the [AdapTable React Support Template](https://github.com/AdaptableTools/support-template-adaptable-react-aggrid) for a full example of AdapTable React. 
 
 AdapTable React is the React Framework version of AdapTable - the market-leading, low-code AG Grid extension from AdapTable Tools.
 
