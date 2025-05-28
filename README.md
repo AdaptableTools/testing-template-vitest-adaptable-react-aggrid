@@ -10,7 +10,7 @@ For full information on how to use AdapTable React see the [AdapTable Documentat
 
 The demo is built using these key packages:
 
-- [AdapTable](https://docs.adaptabletools.com/) version 22
+- [AdapTable](https://docs.adaptabletools.com/) version 20
 - [AG Grid](https://www.ag-grid.com) version 33.x
 - [React](https://react.dev/) version 18
 
@@ -75,7 +75,7 @@ See `App.test.tsx` for an example test.
 
 ## Licences
 
-An [AdapTable Licence](https://docs.adaptabletools.com/guide/licensing) provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
+An [AdapTable Licence](https://docs.adaptabletools.com/guide/buying-adaptable-licensing) provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
 
 Licences can be purchased individually, for a team, for an organisation or for integration into software for onward sale.
 
