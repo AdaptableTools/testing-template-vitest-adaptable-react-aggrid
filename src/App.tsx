@@ -1,6 +1,6 @@
 import React from 'react';
 import { Adaptable, AdaptableOptions } from '@adaptabletools/adaptable-react-aggrid';
-import { AllEnterpriseModule, GridOptions, Module, themeQuartz } from 'ag-grid-enterprise';
+import { AllEnterpriseModule, GridOptions, Module, ValidationModule, themeQuartz } from 'ag-grid-enterprise';
 
 import { columnDefs, defaultColDef } from './ColumnDefs';
 import { rowData, WebFramework } from './RowData';
@@ -55,7 +55,7 @@ const gridOptions: GridOptions<WebFramework> = {
   defaultColDef,
 };
 
-const modules: Module[] = [AllEnterpriseModule];
+const modules: Module[] = [AllEnterpriseModule, ValidationModule];
 
 export const App: React.FC = () => {
   return (
