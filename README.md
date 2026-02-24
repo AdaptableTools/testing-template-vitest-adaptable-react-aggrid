@@ -12,8 +12,8 @@ For full information on how to use AdapTable React see the [AdapTable Documentat
 
 The demo is built using these key packages:
 
-- [AdapTable](https://www.adaptabletools.com) version 20
-- [AG Grid](https://www.ag-grid.com) version 33.x
+- [AdapTable](https://www.adaptabletools.com) version 22
+- [AG Grid](https://www.ag-grid.com) version 35.x
 - [React](https://react.dev/) version 18
 
 ## Contents
